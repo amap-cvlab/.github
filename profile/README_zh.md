@@ -14,7 +14,7 @@
 
 # 🔈 最新动态
 
-* 🏛 **2025 年 4 月 29 日** – 我们的论文 [**G3PT**]() 被 IJCAI 2025 接收。
+* 🏛 **2025 年 4 月 29 日** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。
 * 📢 **2025 年 4 月 28 日** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) 的推理代码和模型权重。
 * 📢 **2025 年 4 月 24 日** – 我们发布了 [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。
 
@@ -46,7 +46,6 @@
 
 ### 📑 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
-[![Home Page](https://img.shields.io/badge/🌐%20%20Project-G3PT-blue.svg)](https://arxiv.org/abs/2409.06322)
 [![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322)
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-IJCAI%202025-green)](https://arxiv.org/abs/2409.06322)
 

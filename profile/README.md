@@ -16,7 +16,7 @@ Feel free to ⭐ the repos above to stay updated.
 
 # 🔈 Latest News
 
-- 🏛 **Apr 29, 2025** – Our paper [**G3PT**]() is accepted by IJCAI 2025.
+- 🏛 **Apr 29, 2025** – Our paper [**G3PT**](https://arxiv.org/abs/2409.06322) is accepted by IJCAI 2025.
 - 📢 **Apr 28, 2025** – We released the inference code and model weights of [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/).  
 - 📢 **Apr 24, 2025** – We released the inference code and model weights of [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/).
 
@@ -60,7 +60,6 @@ Toolkit for unified understanding and generation across text, image, video, audi
 
 ### 📑 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
-[![Home Page](https://img.shields.io/badge/🌐%20%20Project-G3PT-blue.svg)](https://arxiv.org/abs/2409.06322)
 [![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322) 
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-IJCAI%202025-green)](https://arxiv.org/abs/2409.06322)
 
