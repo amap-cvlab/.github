@@ -12,7 +12,7 @@ We are the Alibaba AMAP CV Lab, focusing on cutting-edge research and innovative
 ---
 
 _We welcome contributions, issues, and feedback!_  
-Feel free to ⭐ the repos above to stay updated.
+Feel free to ⭐ the repos below to stay updated.
 
 # 🔈 Latest News
 
