@@ -55,6 +55,8 @@
 
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICASSP%202024-green)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
 
+合成语音干扰下，语音识别性能分析和新方案探索。
+
 ## 🤖 数字人
 
 数字人 AIGC 系列模型，更多惊喜敬请期待。请查看我们的 [Fantasy AIGC Family](https://github.com/Fantasy-AMAP) 了解更多。

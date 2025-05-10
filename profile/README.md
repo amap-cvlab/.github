@@ -69,6 +69,8 @@ The first native 3D generation foundational model based on next-scale autoregres
 
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICASSP%202024-green)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
 
+Performance analysis and novel solution exploration for speech recognition under synthetic speech interference.
+
 <!-- 
 
 Human AIGC
