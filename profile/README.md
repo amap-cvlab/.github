@@ -139,7 +139,8 @@ Human AIGC
 
 ### 📑 DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
 
-[![Publish](https://img.shields.io/badge/🏛%20%20Conference-CVPR%202023-green)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-CVPR%202023-green)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)  
+An optimization scheme for a proprietary HPE task in DMS scenarios which involves a pose-wise hard mining strategy for distribution balance and an online keypoint-aligned Grad-CAM loss to constrain activations to semantic regions.
 
 
 ### 🤖 Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
@@ -147,7 +148,6 @@ Human AIGC
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-ECCV%202022-green)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf)
 [![Code](https://img.shields.io/badge/GitHub-Code-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
 
-An optimization scheme for a proprietary HPE task in DMS scenarios which involves a pose-wise hard mining strategy for distribution balance and an online keypoint-aligned Grad-CAM loss to constrain activations to semantic regions.
 
 ### 📑 SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
 
