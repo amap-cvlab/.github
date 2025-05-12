@@ -106,11 +106,14 @@
 
 ### 📑 DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
 
-[![Publish](https://img.shields.io/badge/🏛%20%20Conference-CVPR%202023-green)](https://openaccess.thecvf.com/content/CVPRW2023/html/w14/Wang_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.html)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-CVPR%202023-green)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
+
+针对DMS场景下的HPE任务，提出包含困难样本挖掘与在线关键点对齐Grad-CAM损失的优化方案。
+
 
 ### 🤖 Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
 
-[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ECCV%202022-green)](https://www.ecva.net/papers/eccv_2022/papers/136830723.pdf)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ECCV%202022-green)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf)
 [![Code](https://img.shields.io/badge/GitHub-Code-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
 
 ### 📑 SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
