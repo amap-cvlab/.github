@@ -16,7 +16,7 @@ Feel free to ⭐ the repos below to stay updated.
 
 # 🔈 Latest News
 
-- 🏛 **Jul, 5,2025** – Our paper [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) is accepted by ACM MM 2025.
+- 🏛 **Jul, 5, 2025** – Our paper [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) is accepted by ACM MM 2025.
 - 🏛 **Apr 29, 2025** – Our paper [**G3PT**](https://arxiv.org/abs/2409.06322) is accepted by IJCAI 2025.
 - 📢 **Apr 28, 2025** – We released the inference code and model weights of [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/).  
 - 📢 **Apr 24, 2025** – We released the inference code and model weights of [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/).
