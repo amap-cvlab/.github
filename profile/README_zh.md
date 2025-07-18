@@ -29,10 +29,11 @@
 
 
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
-一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2507.04822v1)
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICCV%202025-green)](https://arxiv.org/pdf/2507.04822v1)
+
+一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。
 
 ### 📑 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
 
@@ -55,12 +56,12 @@
 自主导航与机器人中的空间推理与路径规划框架。
 
 ### 📑 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
-在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
 
 [![Home Page](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
 
+在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
 
 ## 🌈 多模态 AI
 
@@ -82,6 +83,14 @@
 ## 🤖 数字人
 
 数字人 AIGC 系列模型，更多惊喜敬请期待。请查看我们的 [Fantasy AIGC Family](https://github.com/Fantasy-AMAP) 了解更多。
+
+### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
+
+[![Home Page](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.12956-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.12956)
+[![Code](https://img.shields.io/badge/Code%20%28Coming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
+
+一种全新的表情驱动视频生成方法，将情绪增强学习与掩码跨注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
 

@@ -37,11 +37,11 @@ Next-generation engine for real-time rendering and updating of large-scale 3D ma
 
 
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
-A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2507.04822v1)
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICCV%202025-green)](https://arxiv.org/pdf/2507.04822v1)
 
+A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
 
 ### 📑 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map 
 
@@ -110,9 +110,12 @@ Human AIGC
 The human related AIGC model family, more are coming soon. Please check out our [Fantasy AIGC Family](https://github.com/Fantasy-AMAP) for more details.
 
 ### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
+
 [![Home Page](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.12956-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.12956)
 [![Code](https://img.shields.io/badge/Code%20%28Coming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
+
+A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
   
