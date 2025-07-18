@@ -14,7 +14,9 @@
 
 # 🔈 最新动态
 
-* 🏛 **2025 年 7 月 5 日** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
+* 🏛 **2025 年 7 月 05 日** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
+* 🏛 **2025 年 6 月 26 日** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。
+* 📢 **2025 年 5 月 23 日** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。
 * 🏛 **2025 年 4 月 29 日** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。
 * 📢 **2025 年 4 月 28 日** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) 的推理代码和模型权重。
 * 📢 **2025 年 4 月 24 日** – 我们发布了 [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。
@@ -24,6 +26,13 @@
 ## 🗺️ 三维地图引擎
 
 面向大规模 3D 地图的实时渲染与更新的下一代引擎。
+
+
+### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
+一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2507.04822v1)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICCV%202025-green)](https://arxiv.org/pdf/2507.04822v1)
 
 ### 📑 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
 
@@ -40,6 +49,18 @@
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-WACV%202025-green)](https://ieeexplore.ieee.org/abstract/document/10943871)
 
 一个用于大场景渲染的全局引导的局部神经辐射场。
+
+## 📐 空间智能
+
+自主导航与机器人中的空间推理与路径规划框架。
+
+### 📑 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
+在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
+
+[![Home Page](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
+
 
 ## 🌈 多模态 AI
 
@@ -66,6 +87,7 @@
 
 [![Home Page](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ACM%20MM%202025-green)](https://arxiv.org/abs/2504.04842)
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyID)
 [![HuggingFace](https://img.shields.io/badge/🤗-Space-FFD21E.svg)](https://huggingface.co/spaces/acvlab/FantasyTalking)
 [![ModelScope](https://img.shields.io/badge/🤖-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyTalking)
@@ -92,11 +114,6 @@
 [![HuggingFace](https://img.shields.io/badge/🤗-Datasets-FFD21E.svg)](https://huggingface.co/datasets/jellyczd/HumanRig)
 
 首个面向3D生成数字人的自动绑骨数据集以及基于变换器的端到端自动绑骨算法。
-
-## 📐 空间智能
-
-自主导航与机器人中的空间推理与路径规划框架。
-🔜 敬请期待
 
 ## 🌐 世界建模
 

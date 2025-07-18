@@ -16,7 +16,9 @@ Feel free to ⭐ the repos below to stay updated.
 
 # 🔈 Latest News
 
-- 🏛 **Jul, 5, 2025** – Our paper [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) is accepted by ACM MM 2025.
+- 🏛 **Jul 05, 2025** – Our paper [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) is accepted by ACM MM 2025.
+- 🏛 **Jun 26, 2025** – Our paper [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) is accepted by ICCV 2025.
+- 📢 **May 23, 2025** – We released the full project of [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/).  
 - 🏛 **Apr 29, 2025** – Our paper [**G3PT**](https://arxiv.org/abs/2409.06322) is accepted by IJCAI 2025.
 - 📢 **Apr 28, 2025** – We released the inference code and model weights of [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/).  
 - 📢 **Apr 24, 2025** – We released the inference code and model weights of [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/).
@@ -32,6 +34,14 @@ Feel free to ⭐ the repos below to stay updated.
 ## 🗺️ 3D Map Engine  
 
 Next-generation engine for real-time rendering and updating of large-scale 3D maps with high-level accuracy.  
+
+
+### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
+A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2507.04822v1)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ICCV%202025-green)](https://arxiv.org/pdf/2507.04822v1)
+
 
 ### 📑 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map 
 
@@ -49,6 +59,23 @@ Benchmark and multi-modal approach for integrating lane-level traffic sign regul
 [![Home Page](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 [![Publish](https://img.shields.io/badge/🏛%20%20Conference-WACV%202025-green)](https://ieeexplore.ieee.org/abstract/document/10943871)
+
+<!-- 
+
+Spatial Intelligence
+
+-->
+
+## 📐 Spatial Intelligence  
+Framework for spatial reasoning and path planning in autonomous navigation and robotics.  
+
+### 📑 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
+The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.
+
+[![Home Page](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
+
 
 <!-- 
 
@@ -82,14 +109,20 @@ Human AIGC
 
 The human related AIGC model family, more are coming soon. Please check out our [Fantasy AIGC Family](https://github.com/Fantasy-AMAP) for more details.
 
+### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
+[![Home Page](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.12956-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.12956)
+[![Code](https://img.shields.io/badge/Code%20%28Coming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
+
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
   
 [![Home Page](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
+[![Publish](https://img.shields.io/badge/🏛%20%20Conference-ACM%20MM%202025-green)](https://arxiv.org/abs/2504.04842)
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyID)
 [![HuggingFace](https://img.shields.io/badge/🤗-Space-FFD21E.svg)](https://huggingface.co/spaces/acvlab/FantasyTalking)
 [![ModelScope](https://img.shields.io/badge/🤖-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyTalking)
-[![Code](https://img.shields.io/badge/Code-GitHub-181717.svg)](https://github.com/Fantasy-AMAP/fantasy-talking)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking)
 
 The first Wan based high-fidelity audio-driven avatar system that synchronizes facial expressions, lip motion, and body gestures in dynamic scenes. 
 
@@ -119,11 +152,6 @@ The first dataset for automatic rigging of 3D generated digital humans and a tra
 Comming Soon
 
 -->
-
-
-## 📐 Spatial Intelligence  
-Framework for spatial reasoning and path planning in autonomous navigation and robotics.  
-🔜 Coming soon
 
 ## 🌐 World Modeling  
 Platform for constructing and querying dynamic digital twins of real-world environments.  
