@@ -90,7 +90,7 @@
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.12956-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.12956)
 [![Code](https://img.shields.io/badge/Code%20%28Coming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
 
-一种全新的表情驱动视频生成方法，将情绪增强学习与掩码跨注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。
+一种全新的表情驱动视频生成方法，将情绪增强学习与掩码交叉注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
 
