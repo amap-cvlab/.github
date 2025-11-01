@@ -7,8 +7,13 @@ E-mail: frank.jf@alibaba-inc.com
 Date: 10/31 03:17:35
 """
 
-from urllib.parse import quote as qs
+from urllib.parse import quote
 import json
+
+
+def qs(s, safe="") -> str:
+    out = quote(s, safe=safe)
+    return out.replace("-", "%20")
 
 
 class Badge(object):

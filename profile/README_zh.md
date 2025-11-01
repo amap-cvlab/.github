@@ -141,7 +141,7 @@
 
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-CE-Nav-blue.svg)](https://ce-nav.github.io/)
+[![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.23203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.23203)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
@@ -212,7 +212,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 
 ### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-GF-NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
+[![Project](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF 通过全局引导的双阶段架构，实现无需先验知识的大规模场景一致且高保真渲染。

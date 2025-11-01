@@ -143,7 +143,7 @@ We study perception, reasoning, and action of intelligent agents in both virtual
 
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-CE-Nav-blue.svg)](https://ce-nav.github.io/)
+[![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.23203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.23203)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
@@ -214,7 +214,7 @@ The first native 3D generation foundational model based on next-scale autoregres
 
 ### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-GF-NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
+[![Project](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF introduces a global-guided two-stage architecture to achieve consistent and high-fidelity large-scale scene rendering without relying on prior scene knowledge.
