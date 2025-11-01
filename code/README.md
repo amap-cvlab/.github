@@ -10,7 +10,7 @@ Positioned at the intersection of the physical and digital worlds, we empower sm
 As the core technical driving force behind AMAP, our research spans the entire chain from perception to generation, and from human-centric intelligence to world modeling. 
 We are structured into six major research domains:
 - 🗺️ Map & Autonomous Driving: Integrating multimodal perception with high-definition map generation to enable spatial semantic understanding and regulation-aware intelligent driving.
-- 🧍 Human-Centric AI: Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
+- 🕺🏻 Human-Centric AI: Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
 - 🧭 Embodied Intelligence: Studying agents that perceive, plan, and act within both virtual and physical environments, unifying vision, language, and motion intelligence.
 - 🌐 World Modeling: Constructing dynamic, interactive models of the world to empower AI with the ability to understand, predict, and generate complex environments.
 - 🧊 3D Generation & Reconstruction: Advancing 3D scene modeling, rendering, and generation with continuous level-of-detail control and physically realistic synthesis.

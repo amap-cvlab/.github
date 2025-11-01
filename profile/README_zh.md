@@ -9,7 +9,7 @@
 作为业界领航者，团队不仅在计算机视觉领域持续深耕，更将计算机视觉及AI技术应用在自主导航、高德打车、生活服务等多元化场景。
 作为高德地图的核心技术驱动部门，我们的研究方向涵盖从感知到生成、从人本智能到世界建模的全链条技术体系，形成了六大研究领域：
 - 🗺️ 地图与自动驾驶（Map & Autonomous Driving）：融合多模态感知与高精地图生成，探索空间语义理解与规则感知下的智能出行。
-- 🧍 人本智能（Human-Centric AI）：构建以人为中心的AI系统，让模型理解情感、身份与行为，实现自然的视觉生成与交互。
+- 🕺🏻 数字人（Human-Centric AI）：构建以人为中心的AI系统，让模型理解情感、身份与行为，实现自然的视觉生成与交互。
 - 🧭 具身智能（Embodied AI）：研究智能体在虚拟与真实世界中的感知、规划与行动，推动视觉语言与运动智能的统一。
 - 🌐 世界模型（World Modeling）：构建动态可交互的世界建模框架，让AI具备对环境的理解、预测与生成能力。
 - 🧊 3D生成与重建（3D Generation & Reconstruction）：聚焦三维场景的建模、渲染与生成，实现连续细节控制与真实感表达。
@@ -63,9 +63,9 @@
 交通标志中的车道级交通规则理解与绑路评测基准及多模态解决方案。
 <br><br>
 
-## 🤖 人本智能
+## 🕺🏻 数字人
 
-以生成式AI为核心，探索数字人从“被驱动”到“自主行动”的进化。团队提出系列 Fantasy AIGC 模型家族，覆盖表情驱动、语音驱动、身份保持与动作生成，实现情感丰富、身份一致、物理合理的高保真数字人视频生成。
+以生成式AI为核心，探索数字人从“被驱动”到“自主行动”的进化。团队提出 [Fantasy AIGC 系列模型](https://github.com/Fantasy-AMAP)，覆盖表情驱动、语音驱动、身份保持与动作生成，实现情感丰富、身份一致、物理合理的高保真数字人视频生成。
 <br><br>
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
@@ -183,7 +183,10 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 
 ### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
 
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-world)
 
 一个统一视频先验信息和几何3D的世界模型，能够生成几何一致的、可探索的3D场景。
 <br><br>
@@ -191,9 +194,6 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 ### World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.24948-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.24948)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/junjxiao/world-env)
-![GitHub Stars](https://img.shields.io/github/stars/junjxiao/world-env)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/junjxiao/world-env)
 
 一个新颖的以世界模型为虚拟环境的VLA后训练框架。
 <br><br>

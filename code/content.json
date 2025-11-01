@@ -56,11 +56,11 @@
         ]
     },
     {
-        "icon": "🤖",
+        "icon": "🕺🏻",
         "title": "Human-Centric AI",
-        "title_zh": "人本智能",
-        "intro": "Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the Fantasy AIGC model family, we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.",
-        "intro_zh": "以生成式AI为核心，探索数字人从“被驱动”到“自主行动”的进化。团队提出系列 Fantasy AIGC 模型家族，覆盖表情驱动、语音驱动、身份保持与动作生成，实现情感丰富、身份一致、物理合理的高保真数字人视频生成。",
+        "title_zh": "数字人",
+        "intro": "Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the [Fantasy AIGC Family](https://github.com/Fantasy-AMAP), we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.",
+        "intro_zh": "以生成式AI为核心，探索数字人从“被驱动”到“自主行动”的进化。团队提出 [Fantasy AIGC 系列模型](https://github.com/Fantasy-AMAP)，覆盖表情驱动、语音驱动、身份保持与动作生成，实现情感丰富、身份一致、物理合理的高保真数字人视频生成。",
         "papers": [
             {
                 "title": "🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis",
@@ -262,6 +262,14 @@
                 "intro_zh": "一个统一视频先验信息和几何3D的世界模型，能够生成几何一致的、可探索的3D场景。",
                 "arxiv": {
                     "id": "2509.21657"
+                },
+                "project": {
+                    "id": "FantasyWorld",
+                    "url": "https://fantasy-amap.github.io/fantasy-world/"
+                },
+                "github": {
+                    "repo": "Fantasy-AMAP/fantasy-world",
+                    "not_finished": true
                 }
             },
             {
@@ -270,13 +278,6 @@
                 "intro_zh": "一个新颖的以世界模型为虚拟环境的VLA后训练框架。",
                 "arxiv": {
                     "id": "2509.24948"
-                },
-                "github": {
-                    "repo": "junjxiao/world-env"
-                },
-                "modelscope": {
-                    "repo": "junjxiao/world-env",
-                    "model": true
                 }
             }
         ]

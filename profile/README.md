@@ -10,7 +10,7 @@ Positioned at the intersection of the physical and digital worlds, we empower sm
 As the core technical driving force behind AMAP, our research spans the entire chain from perception to generation, and from human-centric intelligence to world modeling. 
 We are structured into six major research domains:
 - 🗺️ Map & Autonomous Driving: Integrating multimodal perception with high-definition map generation to enable spatial semantic understanding and regulation-aware intelligent driving.
-- 🧍 Human-Centric AI: Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
+- 🕺🏻 Human-Centric AI: Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
 - 🧭 Embodied Intelligence: Studying agents that perceive, plan, and act within both virtual and physical environments, unifying vision, language, and motion intelligence.
 - 🌐 World Modeling: Constructing dynamic, interactive models of the world to empower AI with the ability to understand, predict, and generate complex environments.
 - 🧊 3D Generation & Reconstruction: Advancing 3D scene modeling, rendering, and generation with continuous level-of-detail control and physically realistic synthesis.
@@ -65,9 +65,9 @@ A generative framework that reframes lane network learning as a process of incre
 Benchmark and multi-modal approach for integrating lane-level traffic sign regulations into vectorized HD maps.
 <br><br>
 
-## 🤖 Human-Centric AI
+## 🕺🏻 Human-Centric AI
 
-Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the Fantasy AIGC model family, we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.
+Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the [Fantasy AIGC Family](https://github.com/Fantasy-AMAP), we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.
 <br><br>
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
@@ -185,7 +185,10 @@ We aim to construct dynamic, interactive world models for understanding, predict
 
 ### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
 
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-world)
 
 A unified world model integrating video priors and geometric grounding for synthesizing explorable and geometrically consistent 3D scenes.
 <br><br>
@@ -193,9 +196,6 @@ A unified world model integrating video priors and geometric grounding for synth
 ### World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.24948-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.24948)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/junjxiao/world-env)
-![GitHub Stars](https://img.shields.io/github/stars/junjxiao/world-env)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/junjxiao/world-env)
 
 A novel framework leveraging world model as a virtual environment for VLA post training.
 <br><br>
