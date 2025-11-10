@@ -216,7 +216,8 @@
                     "id": "2509.25687"
                 },
                 "github": {
-                    "repo": "amap-cvlab/OmniNav"
+                    "repo": "amap-cvlab/OmniNav",
+                    "not_finished": true
                 }
             },
             {

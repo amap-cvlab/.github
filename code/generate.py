@@ -80,6 +80,10 @@ class GitHub(Badge):
         self.repo = repo
         self.stars = stars
 
+        if not_finished:
+            id = "Code (Comming Soon)"
+            self.stars = False
+
     def to_markdown(self) -> str:
         return super().to_markdown() + (
             f"\n![GitHub Stars](https://img.shields.io/github/stars/{self.repo})"

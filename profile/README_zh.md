@@ -24,6 +24,7 @@
 
 # 🔈 最新动态
 
+* 🏛 **2025 年 11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)
 * 🏛 **2025 年 9 月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。
 * 🏛 **2025 年 7 月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
 * 🏛 **2025 年 6 月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。
@@ -118,7 +119,6 @@
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-hsi)
 
 一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。
 <br><br>
@@ -152,8 +152,7 @@
 ### OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.25687-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.25687)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/OmniNav)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
 
 OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。
 <br><br>
@@ -186,7 +185,6 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-world)
 
 一个统一视频先验信息和几何3D的世界模型，能够生成几何一致的、可探索的3D场景。
 <br><br>
