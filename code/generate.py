@@ -54,14 +54,15 @@ class Publish(Badge):
 
     def __init__(self, id, url, publisher="conference"):
         label = "Conference"
-        prefix = "🏛  Conference"
-        if publisher.lower() == "journal":
+        if publisher.lower() == "conference":
+            prefix = "🏛  Conference"
+        elif publisher.lower() == "journal":
             prefix = "📗  Journal"
         elif publisher.lower() == "report":
             prefix = "📖  Report"
         else:
             raise ValueError("Publisher must be 'conference', 'journal', or 'report'.")
-        badge_url = f"https://img.shields.io/badge/{prefix}-{id}-green.svg"
+        badge_url = f"https://img.shields.io/badge/{qs(prefix)}-{qs(id)}-green.svg"
         super().__init__(id, label, badge_url, url)
 
 
@@ -199,7 +200,7 @@ def create_readme(
 
     lines = []
     suffix = "_zh" if locale == "zh" else ""
-    orders = ["project", "arxiv", "github", "huggingface", "modelscope"]
+    orders = ["project", "publish", "arxiv", "github", "huggingface", "modelscope"]
 
     for topic in topics:
         if not topic.get("icon") or not topic.get(f"title{suffix}"):

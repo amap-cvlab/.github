@@ -42,6 +42,7 @@
 ### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-NeurIPS%202025%20%28Spotlight%29-green.svg)](https://neurips.cc/virtual/2025/poster/116)
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/FSDrive)
@@ -51,6 +52,7 @@
 
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.04822v1)
 
 一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。
@@ -59,6 +61,7 @@
 ### 🚗 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-MapDR-blue.svg)](https://amap-cvlab.github.io/DriveByTheRules/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chang_Driving_by_the_Rules_A_Benchmark_for_Integrating_Traffic_Sign_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.23780-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.23780)
 
 交通标志中的车道级交通规则理解与绑路评测基准及多模态解决方案。
@@ -72,6 +75,7 @@
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ACM%20MM%202025-green.svg)](https://dl.acm.org/doi/10.1145/3746027.3755217)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking)
 ![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-talking)
@@ -126,6 +130,7 @@
 ### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-HumanRig-blue.svg)](https://c8241998.github.io/HumanRig/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2412.02317-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.02317)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/c8241998/HumanRig)
 ![GitHub Stars](https://img.shields.io/github/stars/c8241998/HumanRig)
@@ -203,6 +208,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 
 ### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
 [![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322)
 
 首个基于多尺度自回归的原生 3D 生成基座大模型。
@@ -211,6 +217,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 ### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-WACV%202025-green.svg)](https://ieeexplore.ieee.org/abstract/document/10943871)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF 通过全局引导的双阶段架构，实现无需先验知识的大规模场景一致且高保真渲染。
@@ -232,12 +239,14 @@ CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅�
 
 ### 🎙️ A Study on the Adverse Impact of Synthetic Speech on Speech Recognition
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICASSP%202024-green.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
 
 合成语音干扰下，语音识别性能分析和新方案探索。
 <br><br>
 
 ### Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ECCV%202022-green.svg)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
 ![GitHub Stars](https://img.shields.io/github/stars/ginobilinie/DFvT)
 
@@ -246,12 +255,14 @@ DFvT 提出一种双融合视觉Transformer架构，兼顾全局上下文建模�
 
 ### SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202022-green.svg)](https://www.ijcai.org/proceedings/2022/0207.pdf)
 
 一种通过自我校正的教师架构来减少噪声伪标签影响的半监督目标检测新方法。
 <br><br>
 
 ### DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%20Workshop%202023-green.svg)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
 
 针对DMS场景下的HPE任务，提出包含困难样本挖掘与在线关键点对齐Grad-CAM损失的优化方案。
 <br><br>

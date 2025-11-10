@@ -44,6 +44,7 @@ The core of our research lies in integrating perception, mapping, and decision-m
 ### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-NeurIPS%202025%20%28Spotlight%29-green.svg)](https://neurips.cc/virtual/2025/poster/116)
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/FSDrive)
@@ -53,6 +54,7 @@ The first VLA for autonomous driving visual reasoning, which proposes spatio-tem
 
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.04822v1)
 
 A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
@@ -61,6 +63,7 @@ A generative framework that reframes lane network learning as a process of incre
 ### 🚗 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-MapDR-blue.svg)](https://amap-cvlab.github.io/DriveByTheRules/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chang_Driving_by_the_Rules_A_Benchmark_for_Integrating_Traffic_Sign_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.23780-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.23780)
 
 Benchmark and multi-modal approach for integrating lane-level traffic sign regulations into vectorized HD maps.
@@ -74,6 +77,7 @@ Centered on generative AI, our digital human research advances from driven gener
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ACM%20MM%202025-green.svg)](https://dl.acm.org/doi/10.1145/3746027.3755217)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking)
 ![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-talking)
@@ -128,6 +132,7 @@ A graph-based multi-agent framework that grounds video generation within 3D worl
 ### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-HumanRig-blue.svg)](https://c8241998.github.io/HumanRig/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2412.02317-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.02317)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/c8241998/HumanRig)
 ![GitHub Stars](https://img.shields.io/github/stars/c8241998/HumanRig)
@@ -205,6 +210,7 @@ Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF
 
 ### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
 [![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322)
 
 The first native 3D generation foundational model based on next-scale autoregression.
@@ -213,6 +219,7 @@ The first native 3D generation foundational model based on next-scale autoregres
 ### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-WACV%202025-green.svg)](https://ieeexplore.ieee.org/abstract/document/10943871)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF introduces a global-guided two-stage architecture to achieve consistent and high-fidelity large-scale scene rendering without relying on prior scene knowledge.
@@ -234,12 +241,14 @@ We focus on general representation learning and model optimization as the founda
 
 ### 🎙️ A Study on the Adverse Impact of Synthetic Speech on Speech Recognition
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICASSP%202024-green.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
 
 Performance analysis and novel solution exploration for speech recognition under synthetic speech interference.
 <br><br>
 
 ### Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ECCV%202022-green.svg)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
 ![GitHub Stars](https://img.shields.io/github/stars/ginobilinie/DFvT)
 
@@ -248,12 +257,14 @@ DFvT introduces a doubly-fused Vision Transformer that combines efficient global
 
 ### SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202022-green.svg)](https://www.ijcai.org/proceedings/2022/0207.pdf)
 
 A self-correction mean teacher architecture that mitigates the impact of noisy pseudo-labels, offering a novel technological breakthrough in the field of semi-supervised object detection.
 <br><br>
 
 ### DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%20Workshop%202023-green.svg)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
 
 An optimization scheme for a proprietary HPE task in DMS scenarios which involves a pose-wise hard mining strategy for distribution balance and an online keypoint-aligned Grad-CAM loss to constrain activations to semantic regions.
 <br><br>
