@@ -26,6 +26,59 @@
                 }
             },
             {
+                "title": "🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data",
+                "intro": "A generative unified framework that autoregressively generates smooth and topologically consistent vectorized maps from multi-modal inputs, enabling scalable, occlusion-robust city-scale mapping without costly on-site data collection.",
+                "intro_zh": "一个生成式统一框架，可以通过自回归方式从多模态输入中生成平滑且拓扑一致的矢量化地图，实现可扩展的、对遮挡具有鲁棒性的大规模城市地图构建，同时无需昂贵的现场数据采集。",
+                "project": {
+                    "id": "UniMapGen",
+                    "url": "https://amap-cvlab.github.io/UniMapGen/"
+                },
+                "arxiv": {
+                    "id": "2509.22262"
+                },
+                "publish": {
+                    "id": "AAAI 2026 (Oral)",
+                    "url": "https://arxiv.org/pdf/2509.22262"
+                },
+                "github": {
+                    "repo": "amap-cvlab/UniMapGen"
+                }
+            },
+            {
+                "title": "🛣️ PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors",
+                "intro": "This is the first framework that unifies the encoding and integration of diverse vectorized prior maps (such as SD maps, outdated HD maps, and historical maps) to enhance online HD map construction.",
+                "intro_zh": "首个能够统一编码并融合多种矢量化先验地图（如SD地图、过期HD地图、历史地图），以增强在线高精地图构建的框架。",
+                "project": {
+                    "id": "PriorDrive",
+                    "url": "https://miv-xjtu.github.io/PriorDrive/"
+                },
+                "arxiv": {
+                    "id": "2409.05352"
+                },
+                "publish": {
+                    "id": "AAAI 2026",
+                    "url": "https://arxiv.org/abs/2409.05352"
+                },
+                "github": {
+                    "repo": "MIV-XJTU/PriorDrive"
+                }
+            },
+            {
+                "title": "🚥 Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving",
+                "intro": "Pioneering a generative co-reasoning paradigm in autonomous mapping, this work (PAMR) unifies the autoregressive construction of lane geometry and persistent traffic rules, enabling vehicles to build maps with long-term memory and consistent rule awareness across extended sequences.",
+                "intro_zh": "本文提出一种融合几何与规则的生成式联合推理范式（PAMR），它以自回归方式统一构建车道向量与持久化交通规则，赋予车辆跨越长时序的场景记忆与规则遵循能力。",
+                "project": {
+                    "id": "PAMR",
+                    "url": "https://miv-xjtu.github.io/PAMR/"
+                },
+                "arxiv": {
+                    "id": "2509.22756"
+                },
+                "github": {
+                    "repo": "https://github.com/MIV-XJTU/PAMR"
+                }
+            },
+            {
                 "title": "📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions",
                 "intro": "A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.",
                 "intro_zh": "一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。",
@@ -92,23 +145,7 @@
                 }
             },
             {
-                "title": "🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers",
-                "intro": "A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.",
-                "intro_zh": "一种全新的表情驱动视频生成方法，将情绪增强学习与掩码交叉注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。",
-                "project": {
-                    "id": "FantasyPortrait",
-                    "url": "https://fantasy-amap.github.io/fantasy-portrait/"
-                },
-                "arxiv": {
-                    "id": "2507.12956"
-                },
-                "github": {
-                    "repo": "Fantasy-AMAP/fantasy-portrait",
-                    "stars": true
-                }
-            },
-            {
-                "title": "🗣️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation",
+                "title": "🎙️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation",
                 "intro": "A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) method enhances the quality of audio-driven avatar in three dimensions: lip-sync, motion naturalness, and visual quality.",
                 "intro_zh": "一种新颖的“时间步-网络层”自适应多专家偏好优化(TLPO)方法，在口型一致、动作自然、视觉效果三个维度上提升了音频驱动数字人动画的质量。",
                 "project": {
@@ -125,6 +162,42 @@
                 "publish": {
                     "id": "AAAI 2026",
                     "url": "https://doi.org/10.48550/arXiv.2508.11255"
+                }
+            },
+            {
+                "title": "🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework",
+                "intro": "A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.",
+                "intro_zh": "一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。",
+                "project": {
+                    "id": "FantasyHSI",
+                    "url": "https://fantasy-amap.github.io/fantasy-hsi/"
+                },
+                "arxiv": {
+                    "id": "2509.01232"
+                },
+                "github": {
+                    "repo": "Fantasy-AMAP/fantasy-hsi",
+                    "not_finished": true
+                },
+                "publish": {
+                    "id": "AAAI 2026",
+                    "url": "https://doi.org/10.48550/arXiv.2509.01232"
+                }
+            },
+            {
+                "title": "🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers",
+                "intro": "A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.",
+                "intro_zh": "一种全新的表情驱动视频生成方法，将情绪增强学习与掩码交叉注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。",
+                "project": {
+                    "id": "FantasyPortrait",
+                    "url": "https://fantasy-amap.github.io/fantasy-portrait/"
+                },
+                "arxiv": {
+                    "id": "2507.12956"
+                },
+                "github": {
+                    "repo": "Fantasy-AMAP/fantasy-portrait",
+                    "stars": true
                 }
             },
             {
@@ -148,26 +221,6 @@
                 "modelscope": {
                     "repo": "amap_cvlab/FantasyID",
                     "model": true
-                }
-            },
-            {
-                "title": "🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework",
-                "intro": "A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.",
-                "intro_zh": "一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。",
-                "project": {
-                    "id": "FantasyHSI",
-                    "url": "https://fantasy-amap.github.io/fantasy-hsi/"
-                },
-                "arxiv": {
-                    "id": "2509.01232"
-                },
-                "github": {
-                    "repo": "Fantasy-AMAP/fantasy-hsi",
-                    "not_finished": true
-                },
-                "publish": {
-                    "id": "AAAI 2026",
-                    "url": "https://doi.org/10.48550/arXiv.2509.01232"
                 }
             },
             {

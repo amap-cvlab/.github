@@ -52,6 +52,38 @@ The core of our research lies in integrating perception, mapping, and decision-m
 The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.
 <br><br>
 
+### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-UniMapGen-blue.svg)](https://amap-cvlab.github.io/UniMapGen/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026%20%28Oral%29-green.svg)](https://arxiv.org/pdf/2509.22262)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22262-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22262)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/UniMapGen)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/UniMapGen)
+
+A generative unified framework that autoregressively generates smooth and topologically consistent vectorized maps from multi-modal inputs, enabling scalable, occlusion-robust city-scale mapping without costly on-site data collection.
+<br><br>
+
+### 🛣️ PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-PriorDrive-blue.svg)](https://miv-xjtu.github.io/PriorDrive/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://arxiv.org/abs/2409.05352)
+[![arXiv](https://img.shields.io/badge/Arxiv-2409.05352-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.05352)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PriorDrive)
+![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PriorDrive)
+
+This is the first framework that unifies the encoding and integration of diverse vectorized prior maps (such as SD maps, outdated HD maps, and historical maps) to enhance online HD map construction.
+<br><br>
+
+### 🚥 Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-PAMR-blue.svg)](https://miv-xjtu.github.io/PAMR/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22756-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22756)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/https://github.com/MIV-XJTU/PAMR)
+![GitHub Stars](https://img.shields.io/github/stars/https://github.com/MIV-XJTU/PAMR)
+
+Pioneering a generative co-reasoning paradigm in autonomous mapping, this work (PAMR) unifies the autoregressive construction of lane geometry and persistent traffic rules, enabling vehicles to build maps with long-term memory and consistent rule awareness across extended sequences.
+<br><br>
+
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
@@ -88,6 +120,26 @@ Centered on generative AI, our digital human research advances from driven gener
 The first Wan-based high-fidelity audio-driven avatar system that synchronizes facial expressions, lip motion, and body gestures in dynamic scenes through dual-stage audio-visual alignment and controllable motion modulation.
 <br><br>
 
+### 🎙️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking2-blue.svg)](https://fantasy-amap.github.io/fantasy-talking2/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2508.11255)
+[![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
+
+A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) method enhances the quality of audio-driven avatar in three dimensions: lip-sync, motion naturalness, and visual quality.
+<br><br>
+
+### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2509.01232)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
+
+A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.
+<br><br>
+
 ### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
@@ -96,16 +148,6 @@ The first Wan-based high-fidelity audio-driven avatar system that synchronizes f
 ![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-portrait)
 
 A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.
-<br><br>
-
-### 🗣️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking2-blue.svg)](https://fantasy-amap.github.io/fantasy-talking2/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2508.11255)
-[![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
-
-A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) method enhances the quality of audio-driven avatar in three dimensions: lip-sync, motion naturalness, and visual quality.
 <br><br>
 
 ### 🆔 FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation
@@ -118,16 +160,6 @@ A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) meth
 [![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyID)
 
 A tuning-free text-to-video model that leverages 3D facial priors, multi-view augmentation, and layer-aware guidance injection to deliver dynamic, identity-preserving video generation.
-<br><br>
-
-### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2509.01232)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
-
-A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.
 <br><br>
 
 ### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation

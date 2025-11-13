@@ -50,6 +50,38 @@
 在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
 <br><br>
 
+### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-UniMapGen-blue.svg)](https://amap-cvlab.github.io/UniMapGen/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026%20%28Oral%29-green.svg)](https://arxiv.org/pdf/2509.22262)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22262-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22262)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/UniMapGen)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/UniMapGen)
+
+一个生成式统一框架，可以通过自回归方式从多模态输入中生成平滑且拓扑一致的矢量化地图，实现可扩展的、对遮挡具有鲁棒性的大规模城市地图构建，同时无需昂贵的现场数据采集。
+<br><br>
+
+### 🛣️ PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-PriorDrive-blue.svg)](https://miv-xjtu.github.io/PriorDrive/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://arxiv.org/abs/2409.05352)
+[![arXiv](https://img.shields.io/badge/Arxiv-2409.05352-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.05352)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PriorDrive)
+![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PriorDrive)
+
+首个能够统一编码并融合多种矢量化先验地图（如SD地图、过期HD地图、历史地图），以增强在线高精地图构建的框架。
+<br><br>
+
+### 🚥 Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-PAMR-blue.svg)](https://miv-xjtu.github.io/PAMR/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22756-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22756)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/https://github.com/MIV-XJTU/PAMR)
+![GitHub Stars](https://img.shields.io/github/stars/https://github.com/MIV-XJTU/PAMR)
+
+本文提出一种融合几何与规则的生成式联合推理范式（PAMR），它以自回归方式统一构建车道向量与持久化交通规则，赋予车辆跨越长时序的场景记忆与规则遵循能力。
+<br><br>
+
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
@@ -86,6 +118,26 @@
 首个基于 Wan 的高保真音频驱动虚拟人系统，通过双阶段音视对齐与可控运动调制，实现动态场景下面部表情、唇动与身体姿态的精准同步。
 <br><br>
 
+### 🎙️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking2-blue.svg)](https://fantasy-amap.github.io/fantasy-talking2/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2508.11255)
+[![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
+
+一种新颖的“时间步-网络层”自适应多专家偏好优化(TLPO)方法，在口型一致、动作自然、视觉效果三个维度上提升了音频驱动数字人动画的质量。
+<br><br>
+
+### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2509.01232)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
+[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
+
+一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。
+<br><br>
+
 ### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
@@ -94,16 +146,6 @@
 ![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-portrait)
 
 一种全新的表情驱动视频生成方法，将情绪增强学习与掩码交叉注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。
-<br><br>
-
-### 🗣️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking2-blue.svg)](https://fantasy-amap.github.io/fantasy-talking2/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2508.11255)
-[![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
-
-一种新颖的“时间步-网络层”自适应多专家偏好优化(TLPO)方法，在口型一致、动作自然、视觉效果三个维度上提升了音频驱动数字人动画的质量。
 <br><br>
 
 ### 🆔 FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation
@@ -116,16 +158,6 @@
 [![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyID)
 
 以3D面部先验、多视角增强以及层感知注入的提升运动场景下的ID保持视频生成框架。
-<br><br>
-
-### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2509.01232)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
-
-一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。
 <br><br>
 
 ### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation
