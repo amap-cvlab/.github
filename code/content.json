@@ -22,7 +22,8 @@
                     "url": "https://neurips.cc/virtual/2025/poster/116"
                 },
                 "github": {
-                    "repo": "MIV-XJTU/FSDrive"
+                    "repo": "MIV-XJTU/FSDrive",
+                    "stars": true
                 }
             },
             {
@@ -75,7 +76,7 @@
                     "id": "2509.22756"
                 },
                 "github": {
-                    "repo": "https://github.com/MIV-XJTU/PAMR"
+                    "repo": "MIV-XJTU/PAMR"
                 }
             },
             {

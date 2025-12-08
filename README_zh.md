@@ -1,44 +1,45 @@
-# Alibaba AMAP CV Lab
+# 阿里巴巴 高德视觉技术中心
 
-[中文阅读](README_zh.md)
+[For English](README.md)
 
-# 👋 About
+# 👋 简介
 
-The Alibaba AMAP CV Lab focuses on cutting-edge research and innovative applications centered around computer vision technology, dedicated to building the core technological capabilities of the spatiotemporal internet. Positioned at the intersection of the physical and digital worlds, we empower smart mobility, daily life, and virtual spaces through AI-driven understanding and generation.
+高德视觉技术中心专注于以计算机视觉为核心的前沿研究与创新应用，致力于打造时空互联网领域的核心技术能力。
+我们立足于现实世界与数字世界的交汇点，以AI驱动真实世界的智能化理解与生成，赋能智慧出行、生活服务与虚拟空间构建。
 
-As the core technical driving force behind AMAP, our research spans the entire chain from perception to generation, and from human-centric intelligence to world modeling. We are structured into six major research domains:
+作为业界领航者，团队不仅在计算机视觉领域持续深耕，更将计算机视觉及AI技术应用在自主导航、高德打车、生活服务等多元化场景。
+作为高德地图的核心技术驱动部门，我们的研究方向涵盖从感知到生成、从人本智能到世界建模的全链条技术体系，形成了六大研究领域：
 
-- 🗺️ **Map & Autonomous Driving:** Integrating multimodal perception with high-definition map generation to enable spatial semantic understanding and regulation-aware intelligent driving.
-- 🕺🏻 **Human-Centric AI:** Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
-- 🧭 **Embodied Intelligence:** Studying agents that perceive, plan, and act within both virtual and physical environments, unifying vision, language, and motion intelligence.
-- 🌐 **World Modeling:** Constructing dynamic, interactive models of the world to empower AI with the ability to understand, predict, and generate complex environments.
-- 🧊 **3D Generation & Reconstruction:** Advancing 3D scene modeling, rendering, and generation with continuous level-of-detail control and physically realistic synthesis.
-- 🧠 **General Deep Learning:** Exploring general representation learning, model optimization, and multimodal alignment as foundational algorithms for spatiotemporal intelligence.
+- 🗺️ **地图与自动驾驶（Map & Autonomous Driving）：**融合多模态感知与高精地图生成，探索空间语义理解与规则感知下的智能出行。
+- 🕺🏻 **数字人（Human-Centric AI）：**构建以人为中心的AI系统，让模型理解情感、身份与行为，实现自然的视觉生成与交互。
+- 🧭 **具身智能（Embodied AI）：**研究智能体在虚拟与真实世界中的感知、规划与行动，推动视觉语言与运动智能的统一。
+- 🌐 **世界模型（World Modeling）：**构建动态可交互的世界建模框架，让AI具备对环境的理解、预测与生成能力。
+- 🧊 **3D生成与重建（3D Generation & Reconstruction）：**聚焦三维场景的建模、渲染与生成，实现连续细节控制与真实感表达。
+- 🧠 **通用深度学习（General Deep Learning）：**探索通用表征、模型优化与多模态对齐，为时空智能提供底层算法支撑。
 
-The AMAP CV Lab stands at the forefront of computer vision research and application, serving as a key technological practitioner in Alibaba’s spatial intelligent internet.
-We believe that AI’s ability to understand the world defines the future of intelligent mobility and everyday life.
+高德视觉技术中心始终站在计算机视觉研究与应用的创新高地，是高德空间智能互联网的重要技术实践者。我们相信，**AI对世界的理解能力，将决定未来出行与生活的智能化水平**。
 
 ---
 
-_We welcome contributions, issues, and feedback!_
-Feel free to ⭐ the repos below to stay updated.
+*欢迎贡献、提交 issue 和反馈！*
+欢迎给我们的仓库点个 ⭐ 保持关注。
 
-# 🔈 Latest News
+# 🔈 最新动态
 
-- 🏛 **Nov, 2025** – We are thrilled to announce that **5 papers** from our team have been accepted to AAAI 2026, including 1 Oral, highlighting our latest breakthroughs in autonomous driving ([**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756)) and video generation & digital humans from our [**Fantasy AIGC Family**](https://github.com/Fantasy-AMAP) ([**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)).
-- 🏛 **Sep, 2025** – Our paper [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) is accepted by NeurIPS 2025 (Spotlight).
-- 🏛 **Jul, 2025** – Our paper [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) is accepted by ACM MM 2025.
-- 🏛 **Jun, 2025** – Our paper [**SeqGrowGraph**](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf) is accepted by ICCV 2025.
-- 📢 **May, 2025** – We released the full project of [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/).
-- 🏛 **Apr, 2025** – Our paper [**G3PT**](https://arxiv.org/abs/2409.06322) is accepted by IJCAI 2025.
-- 📢 **Apr, 2025** – We released the inference code and model weights of [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/), [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/).
+- 🏛 **2025 年 11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)
+- 🏛 **2025 年 9 月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。
+- 🏛 **2025 年 7 月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
+- 🏛 **2025 年 6 月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。
+- 📢 **2025 年 5 月** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。
+- 🏛 **2025 年 4 月** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。
+- 📢 **2025 年 4 月** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/)、[**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。
 
 
-# 🔧 Public Technologies
+# 🔧 公开技术
 
-## 🗺️ Map & Autonomous Driving
+## 🗺️ 地图与自动驾驶
 
-The core of our research lies in integrating perception, mapping, and decision-making for intelligent transportation. We develop next-generation 3D map engines, traffic rule reasoning, and scene-level behavior modeling, enabling AI to understand spatial context and make interpretable decisions in real-world urban environments.
+融合感知、地图与决策的核心技术，推动高精地图、自动驾驶感知与时空智能的深度融合。团队聚焦于构建下一代 3D 地图引擎、交通规则理解与场景级行为建模，让 AI 在真实城市道路中具备空间理解与可解释决策能力。
 <br><br>
 
 ### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
@@ -49,7 +50,7 @@ The core of our research lies in integrating perception, mapping, and decision-m
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/FSDrive)
 
-The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.
+在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
 <br><br>
 
 ### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
@@ -60,7 +61,7 @@ The first VLA for autonomous driving visual reasoning, which proposes spatio-tem
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/UniMapGen)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/UniMapGen)
 
-A generative unified framework that autoregressively generates smooth and topologically consistent vectorized maps from multi-modal inputs, enabling scalable, occlusion-robust city-scale mapping without costly on-site data collection.
+一个生成式统一框架，可以通过自回归方式从多模态输入中生成平滑且拓扑一致的矢量化地图，实现可扩展的、对遮挡具有鲁棒性的大规模城市地图构建，同时无需昂贵的现场数据采集。
 <br><br>
 
 ### 🛣️ PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors
@@ -71,7 +72,7 @@ A generative unified framework that autoregressively generates smooth and topolo
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PriorDrive)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PriorDrive)
 
-This is the first framework that unifies the encoding and integration of diverse vectorized prior maps (such as SD maps, outdated HD maps, and historical maps) to enhance online HD map construction.
+首个能够统一编码并融合多种矢量化先验地图（如SD地图、过期HD地图、历史地图），以增强在线高精地图构建的框架。
 <br><br>
 
 ### 🚥 Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving
@@ -81,7 +82,7 @@ This is the first framework that unifies the encoding and integration of diverse
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PAMR)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PAMR)
 
-Pioneering a generative co-reasoning paradigm in autonomous mapping, this work (PAMR) unifies the autoregressive construction of lane geometry and persistent traffic rules, enabling vehicles to build maps with long-term memory and consistent rule awareness across extended sequences.
+本文提出一种融合几何与规则的生成式联合推理范式（PAMR），它以自回归方式统一构建车道向量与持久化交通规则，赋予车辆跨越长时序的场景记忆与规则遵循能力。
 <br><br>
 
 ### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
@@ -89,7 +90,7 @@ Pioneering a generative co-reasoning paradigm in autonomous mapping, this work (
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.04822v1)
 
-A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
+一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。
 <br><br>
 
 ### 🚗 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
@@ -98,12 +99,12 @@ A generative framework that reframes lane network learning as a process of incre
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chang_Driving_by_the_Rules_A_Benchmark_for_Integrating_Traffic_Sign_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.23780-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.23780)
 
-Benchmark and multi-modal approach for integrating lane-level traffic sign regulations into vectorized HD maps.
+交通标志中的车道级交通规则理解与绑路评测基准及多模态解决方案。
 <br><br>
 
-## 🕺🏻 Human-Centric AI
+## 🕺🏻 数字人
 
-Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the [Fantasy AIGC Family](https://github.com/Fantasy-AMAP), we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.
+以生成式AI为核心，探索数字人从“被驱动”到“自主行动”的进化。团队提出 [Fantasy AIGC 系列模型](https://github.com/Fantasy-AMAP)，覆盖表情驱动、语音驱动、身份保持与动作生成，实现情感丰富、身份一致、物理合理的高保真数字人视频生成。
 <br><br>
 
 ### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
@@ -117,7 +118,7 @@ Centered on generative AI, our digital human research advances from driven gener
 [![HuggingFace Space](https://img.shields.io/badge/🤗-HuggingFace%20Space-FFD21E.svg)](https://huggingface.co/spaces/acvlab/FantasyTalking)
 [![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyTalking)
 
-The first Wan-based high-fidelity audio-driven avatar system that synchronizes facial expressions, lip motion, and body gestures in dynamic scenes through dual-stage audio-visual alignment and controllable motion modulation.
+首个基于 Wan 的高保真音频驱动虚拟人系统，通过双阶段音视对齐与可控运动调制，实现动态场景下面部表情、唇动与身体姿态的精准同步。
 <br><br>
 
 ### 🎙️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
@@ -127,7 +128,7 @@ The first Wan-based high-fidelity audio-driven avatar system that synchronizes f
 [![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
 
-A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) method enhances the quality of audio-driven avatar in three dimensions: lip-sync, motion naturalness, and visual quality.
+一种新颖的“时间步-网络层”自适应多专家偏好优化(TLPO)方法，在口型一致、动作自然、视觉效果三个维度上提升了音频驱动数字人动画的质量。
 <br><br>
 
 ### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
@@ -137,7 +138,7 @@ A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) meth
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
 
-A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.
+一种基于图结构的多智能体框架，将视频生成与三维世界动态相融合，使数字人具备感知、规划与自主行动的能力，从而在技术层面上成为连接人与世界的统一“感知–行动”推理桥梁。
 <br><br>
 
 ### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
@@ -147,7 +148,7 @@ A graph-based multi-agent framework that grounds video generation within 3D worl
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
 ![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-portrait)
 
-A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.
+一种全新的表情驱动视频生成方法，将情绪增强学习与掩码交叉注意力相结合，可在单人或多人肖像场景中生成高质量且富有表现力的动画。
 <br><br>
 
 ### 🆔 FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation
@@ -159,7 +160,7 @@ A novel expression-driven video-generation method that pairs emotion-enhanced le
 [![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyID)
 [![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyID)
 
-A tuning-free text-to-video model that leverages 3D facial priors, multi-view augmentation, and layer-aware guidance injection to deliver dynamic, identity-preserving video generation.
+以3D面部先验、多视角增强以及层感知注入的提升运动场景下的ID保持视频生成框架。
 <br><br>
 
 ### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation
@@ -171,12 +172,12 @@ A tuning-free text-to-video model that leverages 3D facial priors, multi-view au
 ![GitHub Stars](https://img.shields.io/github/stars/c8241998/HumanRig)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-FFD21E.svg)](https://huggingface.co/datasets/jellyczd/HumanRig)
 
-The first dataset for automatic rigging of 3D generated digital humans and a transformer-based end-to-end automatic rigging algorithm.
+首个面向3D生成数字人的自动绑骨数据集以及基于变换器的端到端自动绑骨算法。
 <br><br>
 
-## 🧭 Embodied AI
+## 🧭 具身智能
 
-We study perception, reasoning, and action of intelligent agents in both virtual and physical environments. By integrating vision-language models and reinforcement learning, we build embodied agents capable of environmental perception, goal planning, and task execution, forming a unified cognitive foundation for robots and digital humans.
+研究智能体在虚拟与物理环境中的感知、思考与行动机制。通过视觉语言模型与强化学习的结合，构建可在三维空间中感知环境、规划目标、执行任务的具身智能体，为机器人与虚拟人提供统一的认知框架。
 <br><br>
 
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
@@ -186,7 +187,7 @@ We study perception, reasoning, and action of intelligent agents in both virtual
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
 
-A novel cross-embodiment local navigation framework, which can serve as a "one brain, multiple forms", plug-and-play fast system.
+一个新颖的跨具身实体的局部导航框架，可用作一脑多形、可插拔的快系统。
 <br><br>
 
 ### OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation
@@ -194,7 +195,7 @@ A novel cross-embodiment local navigation framework, which can serve as a "one b
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.25687-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.25687)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
 
-OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.
+OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。
 <br><br>
 
 ### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
@@ -205,19 +206,19 @@ OmniNav is a unified embodied navigation framework that combines a lightweight, 
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
 [![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
 
-The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.
+首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。
 <br><br>
 
 ### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.26251-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.26251)
 
-A Robust Vision-Language-Action Framework with Structural Perception and Explicit Dynamics Reasoning.
+融合空间结构与动态推理的视觉-语言-动作新范式。
 <br><br>
 
-## 🌐 World Modeling
+## 🌐 世界模型
 
-We aim to construct dynamic, interactive world models for understanding, predicting, and generating physically consistent spatiotemporal phenomena. By leveraging multimodal modeling and generative learning, our research enables a perception-to-simulation loop that empowers AI to comprehend and recreate the real world.
+致力于构建动态、可交互的世界模型，用于理解、预测与生成物理一致的时空过程。通过跨模态数据建模与生成式学习，实现从感知到模拟的闭环，让AI具备理解真实世界的能力。
 <br><br>
 
 ### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
@@ -226,19 +227,19 @@ We aim to construct dynamic, interactive world models for understanding, predict
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
 
-A unified world model integrating video priors and geometric grounding for synthesizing explorable and geometrically consistent 3D scenes.
+一个统一视频先验信息和几何3D的世界模型，能够生成几何一致的、可探索的3D场景。
 <br><br>
 
 ### World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.24948-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.24948)
 
-A novel framework leveraging world model as a virtual environment for VLA post training.
+一个新颖的以世界模型为虚拟环境的VLA后训练框架。
 <br><br>
 
-## 🧊 3D Generation & Reconstruction
+## 🧊 3D生成与重建
 
-Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF, and 3D-aware diffusion, aiming for real-time rendering, continuous level-of-detail control, and semantically consistent 3D scene synthesis.
+探索3D世界的生成式建模与高保真重建。研究方向涵盖 Gaussian Splatting、NeRF、3D-aware diffusion 等技术，用于实现实时渲染、连续细节层次（LOD）控制与语义一致的三维场景生成。
 <br><br>
 
 ### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
@@ -246,7 +247,7 @@ Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
 [![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322)
 
-The first native 3D generation foundational model based on next-scale autoregression.
+首个基于多尺度自回归的原生 3D 生成基座大模型。
 <br><br>
 
 ### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
@@ -255,7 +256,7 @@ The first native 3D generation foundational model based on next-scale autoregres
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-WACV%202025-green.svg)](https://ieeexplore.ieee.org/abstract/document/10943871)
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
-GF-NeRF introduces a global-guided two-stage architecture to achieve consistent and high-fidelity large-scale scene rendering without relying on prior scene knowledge.
+GF-NeRF 通过全局引导的双阶段架构，实现无需先验知识的大规模场景一致且高保真渲染。
 <br><br>
 
 ### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
@@ -264,19 +265,19 @@ GF-NeRF introduces a global-guided two-stage architecture to achieve consistent 
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CLoD-GS)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CLoD-GS)
 
-CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
+CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。
 <br><br>
 
-## 🧠 General Deep Learning
+## 🧠 通用深度学习
 
-We focus on general representation learning and model optimization as the foundation for multimodal and cross-domain AI systems. Our research includes Transformer architecture optimization, distributed training, model compression, and preference alignment (DPO, RLHF) to enhance generalization and interpretability.
+关注通用表示学习与模型优化，为多模态、跨任务AI系统提供统一基础。研究方向包括 Transformer架构优化、分布式训练、模型压缩 与 偏好对齐学习（DPO, RLHF），持续提升模型的泛化性与可解释性。
 <br><br>
 
 ### 🎙️ A Study on the Adverse Impact of Synthetic Speech on Speech Recognition
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICASSP%202024-green.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
 
-Performance analysis and novel solution exploration for speech recognition under synthetic speech interference.
+合成语音干扰下，语音识别性能分析和新方案探索。
 <br><br>
 
 ### Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
@@ -285,19 +286,19 @@ Performance analysis and novel solution exploration for speech recognition under
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
 ![GitHub Stars](https://img.shields.io/github/stars/ginobilinie/DFvT)
 
-DFvT introduces a doubly-fused Vision Transformer that combines efficient global context modeling with fine-grained spatial detail preservation to achieve high accuracy and efficiency.
+DFvT 提出一种双融合视觉Transformer架构，兼顾全局上下文建模与精细空间细节保留，在保证高效率的同时实现高精度表现。
 <br><br>
 
 ### SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202022-green.svg)](https://www.ijcai.org/proceedings/2022/0207.pdf)
 
-A self-correction mean teacher architecture that mitigates the impact of noisy pseudo-labels, offering a novel technological breakthrough in the field of semi-supervised object detection.
+一种通过自我校正的教师架构来减少噪声伪标签影响的半监督目标检测新方法。
 <br><br>
 
 ### DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%20Workshop%202023-green.svg)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
 
-An optimization scheme for a proprietary HPE task in DMS scenarios which involves a pose-wise hard mining strategy for distribution balance and an online keypoint-aligned Grad-CAM loss to constrain activations to semantic regions.
+针对DMS场景下的HPE任务，提出包含困难样本挖掘与在线关键点对齐Grad-CAM损失的优化方案。
 <br><br>
