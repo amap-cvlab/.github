@@ -37,7 +37,8 @@
             "title": "Public Technologies"
         },
         "footer": "© 2025 Alibaba AMAP CV Lab. All Rights Reserved.",
-        "welcome": "_We welcome contributions, issues, and feedback!_\nFeel free to ⭐ the repos below to stay updated."
+        "welcome": "_We welcome contributions, issues, and feedback!_\nFeel free to ⭐ the repos below to stay updated.",
+        "analytics": "<a href=\"https://mapmyvisitors.com/web/1c15e\" title=\"Visit tracker\"><img src=\"https://mapmyvisitors.com/map.png?d=wQjV7K6tiWOnmLQP6EHW6Nts04cNKhPIGb7ZB3X_WcI&cl=ffffff\" /></a>"
     },
     "zh": {
         "nav": {
@@ -77,6 +78,7 @@
             "title": "公开技术"
         },
         "footer": "© 2025 阿里巴巴 高德视觉技术中心. 保留所有权利。",
-        "welcome": "*欢迎贡献、提交 issue 和反馈！*\n欢迎给我们的仓库点个 ⭐ 保持关注。"
+        "welcome": "*欢迎贡献、提交 issue 和反馈！*\n欢迎给我们的仓库点个 ⭐ 保持关注。",
+        "analytics": "<a href=\"https://mapmyvisitors.com/web/1c15e\" title=\"Visit tracker\"><img src=\"https://mapmyvisitors.com/map.png?d=wQjV7K6tiWOnmLQP6EHW6Nts04cNKhPIGb7ZB3X_WcI&cl=ffffff\" /></a>"
     }
 }

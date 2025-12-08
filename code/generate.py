@@ -20,13 +20,9 @@ DEFAULT_STARS = True  # 默认是否显示 GitHub Stars
 def md_to_html(text):
     if not text:
         return ""
-    # Bold
     text = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", text)
-    # Italic
     text = re.sub(r"\*(.*?)\*", r"<em>\1</em>", text)
-    # Link
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r'<a href="\2" target="_blank">\1</a>', text)
-    # Newlines
     text = text.replace("\n", "<br>")
     return text
 
@@ -202,20 +198,26 @@ def create_html_badge(badge_type, data):
         repo = data.get("repo", "")
         url = f"https://github.com/{repo}"
         label = "Code"
+
         not_finished = data.get("not_finished", False)
         if not_finished:
             label = "Coming Soon"
+
         show_stars = data.get("stars", DEFAULT_STARS)
+        # data-github-repo 属性是 JS 查找的关键
         data_attr = (
             f'data-github-repo="{repo}"' if (show_stars and not not_finished) else ""
         )
 
+        # 结构：<a ... data-github-repo="xxx"> <i...> Code <span class="star-suffix" style="display:none"> ( <span class="star-count"></span> <i...> ) </span> </a>
         html = (
             f'<a href="{url}" target="_blank" class="badge badge-github" {data_attr}>'
         )
         html += f'<i class="fab fa-github"></i> {label}'
+
         if show_stars and not not_finished:
             html += f'<span class="star-suffix" style="display:none"> (<span class="star-count"></span> <i class="fas fa-star"></i>)</span>'
+
         html += "</a>"
         return html
 
@@ -285,6 +287,7 @@ def generate_html(static_data, content_data, locale, output_file):
     suffix = "_zh" if locale == "zh" else ""
     s = static_data
 
+    # HTML Template (修正 Logo 路径)
     template = """<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -297,6 +300,7 @@ def generate_html(static_data, content_data, locale, output_file):
 <body>
     <nav>
         <div class="logo-area">
+            <!-- 修正 Logo 路径 -->
             <img src="profile/assets/amap-cvlab.png" alt="Logo">
             <span>{hero_title}</span>
         </div>
@@ -330,7 +334,10 @@ def generate_html(static_data, content_data, locale, output_file):
         </section>
     </div>
 
-    <footer><p>{footer}</p></footer>
+    <footer>
+        <p>{footer}</p>
+        <div style="margin-top: 20px;">{analytics}</div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>"""
@@ -341,6 +348,7 @@ def generate_html(static_data, content_data, locale, output_file):
     hero_outro = md_to_html(s["hero"]["outro"]).replace("\n", "<br>")
     domain_html = "".join([f"<li>{md_to_html(d)}</li>" for d in s["hero"]["domains"]])
     news_html = "".join([f"<li>{md_to_html(item)}</li>" for item in s["news"]["items"]])
+    analytics_code = s.get("analytics", "")
 
     # 2. Process Papers
     papers_html = ""
@@ -352,7 +360,6 @@ def generate_html(static_data, content_data, locale, output_file):
         if not t_title:
             continue
 
-        # --- 修复：对板块介绍 t_intro 进行 Markdown 转 HTML 处理 ---
         t_intro_html = md_to_html(t_intro)
 
         papers_html += f"""
@@ -370,8 +377,6 @@ def generate_html(static_data, content_data, locale, output_file):
                 continue
 
             p_title = paper.get("title")
-
-            # --- 修复：对论文介绍 p_desc 进行 Markdown 转 HTML 处理 ---
             p_desc_raw = paper.get(f"intro{suffix}", "")
             p_desc_html = md_to_html(p_desc_raw)
 
@@ -406,6 +411,7 @@ def generate_html(static_data, content_data, locale, output_file):
         tech_title=s["tech"]["title"],
         papers_html=papers_html,
         footer=s["footer"],
+        analytics=analytics_code,
     )
 
     with open(output_file, "w", encoding="utf-8") as f:
