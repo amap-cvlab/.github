@@ -267,6 +267,16 @@ GF-NeRF introduces a global-guided two-stage architecture to achieve consistent 
 CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
 <br><br>
 
+### 🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-MVPainter-blue.svg)](https://amap-cvlab.github.io/MV-Painter)
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.12635-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.12635)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/MV-Painter)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/MV-Painter)
+
+Geometrically controlled multi-view diffusion model for generating high-fidelity, detail-rich, and geometrically consistent 3D textures and PBR materials from a single reference image.
+<br><br>
+
 ## 🧠 General Deep Learning
 
 We focus on general representation learning and model optimization as the foundation for multimodal and cross-domain AI systems. Our research includes Transformer architecture optimization, distributed training, model compression, and preference alignment (DPO, RLHF) to enhance generalization and interpretability.

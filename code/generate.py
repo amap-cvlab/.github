@@ -216,7 +216,7 @@ def create_html_badge(badge_type, data):
         html += f'<i class="fab fa-github"></i> {label}'
 
         if show_stars and not not_finished:
-            html += f'<span class="star-suffix" style="display:none"> (<span class="star-count"></span> <i class="fas fa-star"></i>)</span>'
+            html += '<span class="star-suffix" style="display:none"> (<span class="star-count"></span> <i class="fas fa-star"></i>)</span>'
 
         html += "</a>"
         return html
@@ -308,6 +308,7 @@ def generate_html(static_data, content_data, locale, output_file):
             <a href="#about">{nav_home}</a>
             <a href="#news">{nav_news}</a>
             <a href="#tech">{nav_tech}</a>
+            <a href="https://github.com/amap-cvlab">GitHub</a>
             <a href="{lang_link}" class="lang-btn">{lang_label}</a>
         </div>
     </nav>

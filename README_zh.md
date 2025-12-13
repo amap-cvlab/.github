@@ -268,6 +268,16 @@ GF-NeRF 通过全局引导的双阶段架构，实现无需先验知识的大规
 CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。
 <br><br>
 
+### 🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-MVPainter-blue.svg)](https://amap-cvlab.github.io/MV-Painter)
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.12635-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.12635)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/MV-Painter)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/MV-Painter)
+
+基于几何控制的多视角扩散模型，从单张参考图像生成高精度、细节丰富且几何一致的3D纹理及PBR材质。
+<br><br>
+
 ## 🧠 通用深度学习
 
 关注通用表示学习与模型优化，为多模态、跨任务AI系统提供统一基础。研究方向包括 Transformer架构优化、分布式训练、模型压缩 与 偏好对齐学习（DPO, RLHF），持续提升模型的泛化性与可解释性。

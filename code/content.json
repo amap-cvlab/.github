@@ -391,6 +391,21 @@
                 "github": {
                     "repo": "amap-cvlab/CLoD-GS"
                 }
+            },
+            {
+                "title": "🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control",
+                "intro": "Geometrically controlled multi-view diffusion model for generating high-fidelity, detail-rich, and geometrically consistent 3D textures and PBR materials from a single reference image.",
+                "intro_zh": "基于几何控制的多视角扩散模型，从单张参考图像生成高精度、细节丰富且几何一致的3D纹理及PBR材质。",
+                "project": {
+                    "id": "MVPainter",
+                    "url": "https://amap-cvlab.github.io/MV-Painter"
+                },
+                "arxiv": {
+                    "id": "2505.12635"
+                },
+                "github": {
+                    "repo": "amap-cvlab/MV-Painter"
+                }
             }
         ]
     },
