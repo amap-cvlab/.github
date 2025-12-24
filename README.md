@@ -94,7 +94,7 @@ A generative framework that reframes lane network learning as a process of incre
 
 ### 🚗 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-MapDR-blue.svg)](https://amap-cvlab.github.io/DriveByTheRules/)
+[![Project](https://img.shields.io/badge/🌐%20%20Project-MapDR-blue.svg)](https://miv-xjtu.github.io/MapDR/)
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chang_Driving_by_the_Rules_A_Benchmark_for_Integrating_Traffic_Sign_CVPR_2025_paper.pdf)
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.23780-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.23780)
 

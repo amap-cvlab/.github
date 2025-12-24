@@ -97,7 +97,7 @@
                 "intro_zh": "交通标志中的车道级交通规则理解与绑路评测基准及多模态解决方案。",
                 "project": {
                     "id": "MapDR",
-                    "url": "https://amap-cvlab.github.io/DriveByTheRules/"
+                    "url": "https://miv-xjtu.github.io/MapDR/"
                 },
                 "arxiv": {
                     "id": "2410.23780"
