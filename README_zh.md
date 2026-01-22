@@ -26,13 +26,15 @@
 
 # 🔈 最新动态
 
-- 🏛 **2025 年 11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)
-- 🏛 **2025 年 9 月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。
-- 🏛 **2025 年 7 月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
-- 🏛 **2025 年 6 月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。
-- 📢 **2025 年 5 月** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。
-- 🏛 **2025 年 4 月** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。
-- 📢 **2025 年 4 月** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/)、[**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。
+- 📢 **2026年01月** – 我们正式开源了 [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/) 的训练和推理代码及模型权重。
+- 🏆 **2025年12月** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) 在**斯坦福李飞飞教授团队**发布的 [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) 评测中斩获**第一名**，验证了我们的技术路线。
+- 🏛 **2025年11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)
+- 🏛 **2025年09月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。
+- 🏛 **2025年07月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。
+- 🏛 **2025年06月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。
+- 📢 **2025年05月** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。
+- 🏛 **2025年04月** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。
+- 📢 **2025年04月** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/)、[**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。
 
 
 # 🔧 公开技术
@@ -180,6 +182,29 @@
 研究智能体在虚拟与物理环境中的感知、思考与行动机制。通过视觉语言模型与强化学习的结合，构建可在三维空间中感知环境、规划目标、执行任务的具身智能体，为机器人与虚拟人提供统一的认知框架。
 <br><br>
 
+### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
+
+一个统一的多模态链式思维推理框架，通过将世界模型的推演能力内化到 VLN 架构中，基于自然语言指令和视觉观察，实现高效且精确的导航。
+<br><br>
+
+### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
+![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
+
+首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。
+<br><br>
+
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
@@ -196,17 +221,6 @@
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
 
 OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。
-<br><br>
-
-### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
-
-首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。
 <br><br>
 
 ### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA

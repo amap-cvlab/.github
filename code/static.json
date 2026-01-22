@@ -24,6 +24,8 @@
         "news": {
             "title": "Latest News",
             "items": [
+                "📢 **Jan, 2026** – We released the training and inference code and model weights of [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/).",
+                "🏆 **Dec, 2025** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) ranked <strong>1st</strong> on the [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) Leaderboard (by **Stanford Prof. Fei-Fei Li's Team**), validating our approach against global state-of-the-art models.",
                 "🏛 **Nov, 2025** – We are thrilled to announce that **5 papers** from our team have been accepted to AAAI 2026, including 1 Oral, highlighting our latest breakthroughs in autonomous driving ([**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756)) and video generation & digital humans from our [**Fantasy AIGC Family**](https://github.com/Fantasy-AMAP) ([**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)).",
                 "🏛 **Sep, 2025** – Our paper [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) is accepted by NeurIPS 2025 (Spotlight).",
                 "🏛 **Jul, 2025** – Our paper [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) is accepted by ACM MM 2025.",
@@ -36,7 +38,7 @@
         "tech": {
             "title": "Public Technologies"
         },
-        "footer": "© 2025 Alibaba AMAP CV Lab. All Rights Reserved.",
+        "footer": "© 2026 Alibaba AMAP CV Lab. All Rights Reserved.",
         "welcome": "_We welcome contributions, issues, and feedback!_\nFeel free to ⭐ the repos below to stay updated.",
         "analytics": "<a href=\"https://mapmyvisitors.com/web/1c15e\" title=\"Visit tracker\"><img src=\"https://mapmyvisitors.com/map.png?d=wQjV7K6tiWOnmLQP6EHW6Nts04cNKhPIGb7ZB3X_WcI&cl=ffffff\" /></a>"
     },
@@ -65,19 +67,21 @@
         "news": {
             "title": "最新动态",
             "items": [
-                "🏛 **2025 年 11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)",
-                "🏛 **2025 年 9 月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。",
-                "🏛 **2025 年 7 月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。",
-                "🏛 **2025 年 6 月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。",
-                "📢 **2025 年 5 月** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。",
-                "🏛 **2025 年 4 月** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。",
-                "📢 **2025 年 4 月** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/)、[**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。"
+                "📢 **2026年01月** – 我们正式开源了 [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/) 的训练和推理代码及模型权重。",
+                "🏆 **2025年12月** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) 在**斯坦福李飞飞教授团队**发布的 [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) 评测中斩获**第一名**，验证了我们的技术路线。",
+                "🏛 **2025年11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)",
+                "🏛 **2025年09月** – 我们的论文 [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 被 NeurIPS 2025 接收，并选为 Spotlight。",
+                "🏛 **2025年07月** – 我们的论文 [**FantasyTalking**](https://arxiv.org/pdf/2504.04842) 被 ACM MM 2025 接收。",
+                "🏛 **2025年06月** – 我们的论文 [**SeqGrowGraph**](https://arxiv.org/pdf/2507.04822v1) 被 ICCV 2025 接收。",
+                "📢 **2025年05月** – 我们发布了 [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) 的完整项目。",
+                "🏛 **2025年04月** – 我们的论文 [**G3PT**](https://arxiv.org/abs/2409.06322) 被 IJCAI 2025 接收。",
+                "📢 **2025年04月** – 我们发布了 [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/)、[**FantasyID**](https://fantasy-amap.github.io/fantasy-id/) 的推理代码和模型权重。"
             ]
         },
         "tech": {
             "title": "公开技术"
         },
-        "footer": "© 2025 阿里巴巴 高德视觉技术中心. 保留所有权利。",
+        "footer": "© 2026 阿里巴巴 高德视觉技术中心. 保留所有权利。",
         "welcome": "*欢迎贡献、提交 issue 和反馈！*\n欢迎给我们的仓库点个 ⭐ 保持关注。",
         "analytics": "<a href=\"https://mapmyvisitors.com/web/1c15e\" title=\"Visit tracker\"><img src=\"https://mapmyvisitors.com/map.png?d=wQjV7K6tiWOnmLQP6EHW6Nts04cNKhPIGb7ZB3X_WcI&cl=ffffff\" /></a>"
     }

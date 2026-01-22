@@ -25,6 +25,8 @@ Feel free to ⭐ the repos below to stay updated.
 
 # 🔈 Latest News
 
+- 📢 **Jan, 2026** – We released the training and inference code and model weights of [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/).
+- 🏆 **Dec, 2025** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) ranked <strong>1st</strong> on the [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) Leaderboard (by **Stanford Prof. Fei-Fei Li's Team**), validating our approach against global state-of-the-art models.
 - 🏛 **Nov, 2025** – We are thrilled to announce that **5 papers** from our team have been accepted to AAAI 2026, including 1 Oral, highlighting our latest breakthroughs in autonomous driving ([**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756)) and video generation & digital humans from our [**Fantasy AIGC Family**](https://github.com/Fantasy-AMAP) ([**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)).
 - 🏛 **Sep, 2025** – Our paper [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) is accepted by NeurIPS 2025 (Spotlight).
 - 🏛 **Jul, 2025** – Our paper [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) is accepted by ACM MM 2025.
@@ -179,6 +181,29 @@ The first dataset for automatic rigging of 3D generated digital humans and a tra
 We study perception, reasoning, and action of intelligent agents in both virtual and physical environments. By integrating vision-language models and reinforcement learning, we build embodied agents capable of environmental perception, goal planning, and task execution, forming a unified cognitive foundation for robots and digital humans.
 <br><br>
 
+### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
+
+A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.
+<br><br>
+
+### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
+![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
+
+The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.
+<br><br>
+
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
@@ -195,17 +220,6 @@ A novel cross-embodiment local navigation framework, which can serve as a "one b
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
 
 OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.
-<br><br>
-
-### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
-
-The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.
 <br><br>
 
 ### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA

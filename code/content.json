@@ -257,6 +257,50 @@
         "intro_zh": "研究智能体在虚拟与物理环境中的感知、思考与行动机制。通过视觉语言模型与强化学习的结合，构建可在三维空间中感知环境、规划目标、执行任务的具身智能体，为机器人与虚拟人提供统一的认知框架。",
         "papers": [
             {
+                "title": "🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation",
+                "intro": "A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.",
+                "intro_zh": "一个统一的多模态链式思维推理框架，通过将世界模型的推演能力内化到 VLN 架构中，基于自然语言指令和视觉观察，实现高效且精确的导航。",
+                "project": {
+                    "id": "FantasyVLN",
+                    "url": "https://fantasy-amap.github.io/fantasy-vln/"
+                },
+                "arxiv": {
+                    "id": "2601.13976"
+                },
+                "github": {
+                    "repo": "Fantasy-AMAP/fantasy-vln",
+                    "stars": true
+                },
+                "huggingface": {
+                    "repo": "acvlab/FantasyVLN",
+                    "model": true
+                },
+                "modelscope": {
+                    "repo": "amap_cvlab/FantasyVLN",
+                    "model": true
+                }
+            },
+            {
+                "title": "🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+                "intro": "The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.",
+                "intro_zh": "首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。",
+                "project": {
+                    "id": "JanusVLN",
+                    "url": "https://miv-xjtu.github.io/JanusVLN.github.io/"
+                },
+                "arxiv": {
+                    "id": "2509.22548"
+                },
+                "github": {
+                    "repo": "MIV-XJTU/JanusVLN",
+                    "stars": true
+                },
+                "modelscope": {
+                    "repo": "misstl/JanusVLN_Extra",
+                    "model": true
+                }
+            },
+            {
                 "title": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation",
                 "intro": "A novel cross-embodiment local navigation framework, which can serve as a \"one brain, multiple forms\", plug-and-play fast system.",
                 "intro_zh": "一个新颖的跨具身实体的局部导航框架，可用作一脑多形、可插拔的快系统。",
@@ -281,26 +325,6 @@
                 "github": {
                     "repo": "amap-cvlab/OmniNav",
                     "not_finished": true
-                }
-            },
-            {
-                "title": "🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
-                "intro": "The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.",
-                "intro_zh": "首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。",
-                "project": {
-                    "id": "JanusVLN",
-                    "url": "https://miv-xjtu.github.io/JanusVLN.github.io/"
-                },
-                "arxiv": {
-                    "id": "2509.22548"
-                },
-                "github": {
-                    "repo": "MIV-XJTU/JanusVLN",
-                    "stars": true
-                },
-                "modelscope": {
-                    "repo": "misstl/JanusVLN_Extra",
-                    "model": true
                 }
             },
             {
