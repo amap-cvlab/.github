@@ -26,6 +26,7 @@
 
 # 🔈 最新动态
 
+- 🏛 **2026年1月** – 我们非常高兴地宣布，团队共有 **7 篇论文** 被 ICLR 2026 接收，展示了我们在地图与自动驾驶 (**[Online Navigation Refinement](https://arxiv.org/abs/2507.07487)**)、具身智能 (**[JanusVLN](https://miv-xjtu.github.io/JanusVLN.github.io/)**, **[CE-Nav](https://ce-nav.github.io/)**, **[OmniNav](https://arxiv.org/abs/2509.25687)**)、世界模型 (**[FantasyWorld](https://fantasy-amap.github.io/fantasy-world/)**) 以及 3D 生成 (**Sat3DGen**, **CLoD-GS**) 领域的最新突破。
 - 📢 **2026年01月** – 我们正式开源了 [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/) 的训练和推理代码及模型权重。
 - 🏆 **2025年12月** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) 在**斯坦福李飞飞教授团队**发布的 [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) 评测中斩获**第一名**，验证了我们的技术路线。
 - 🏛 **2025年11月** – 我们共有 **5 篇论文** 入选 AAAI 2026，包括 1 篇 Oral，涵盖自动驾驶、以及来自视频生成与数字人：[**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756), [**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)
@@ -42,6 +43,16 @@
 ## 🗺️ 地图与自动驾驶
 
 融合感知、地图与决策的核心技术，推动高精地图、自动驾驶感知与时空智能的深度融合。团队聚焦于构建下一代 3D 地图引擎、交通规则理解与场景级行为建模，让 AI 在真实城市道路中具备空间理解与可解释决策能力。
+<br><br>
+
+### 🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.07487-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.07487)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/WallelWan/OMA-MAT)
+![GitHub Stars](https://img.shields.io/github/stars/WallelWan/OMA-MAT)
+
+首个在线导航细化基准，提出路径感知Transformer将标准地图与在线感知关联，并统一了全局拓扑与实时几何信息，从而实现了低成本的车道级导航。
 <br><br>
 
 ### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
@@ -182,21 +193,10 @@
 研究智能体在虚拟与物理环境中的感知、思考与行动机制。通过视觉语言模型与强化学习的结合，构建可在三维空间中感知环境、规划目标、执行任务的具身智能体，为机器人与虚拟人提供统一的认知框架。
 <br><br>
 
-### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
-
-一个统一的多模态链式思维推理框架，通过将世界模型的推演能力内化到 VLN 架构中，基于自然语言指令和视觉观察，实现高效且精确的导航。
-<br><br>
-
 ### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
@@ -208,6 +208,7 @@
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.23203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.23203)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
@@ -217,10 +218,24 @@
 
 ### OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.25687-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.25687)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/OmniNav)
 
 OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。
+<br><br>
+
+### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
+
+一个统一的多模态链式思维推理框架，通过将世界模型的推演能力内化到 VLN 架构中，基于自然语言指令和视觉观察，实现高效且精确的导航。
 <br><br>
 
 ### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA
@@ -238,6 +253,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 ### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
 
@@ -256,6 +272,20 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 探索3D世界的生成式建模与高保真重建。研究方向涵盖 Gaussian Splatting、NeRF、3D-aware diffusion 等技术，用于实现实时渲染、连续细节层次（LOD）控制与语义一致的三维场景生成。
 <br><br>
 
+### 🛰 Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+
+一个用于街景3D生成的几何优先框架，提出透视视图训练策略以弥合极端的视角差异，并统一了高保真几何与照片级纹理合成。
+<br><br>
+
+### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+
+CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。
+<br><br>
+
 ### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
@@ -271,15 +301,6 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF 通过全局引导的双阶段架构，实现无需先验知识的大规模场景一致且高保真渲染。
-<br><br>
-
-### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.09997-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.09997)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CLoD-GS)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CLoD-GS)
-
-CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。
 <br><br>
 
 ### 🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control

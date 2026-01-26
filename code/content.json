@@ -7,6 +7,22 @@
         "intro_zh": "融合感知、地图与决策的核心技术，推动高精地图、自动驾驶感知与时空智能的深度融合。团队聚焦于构建下一代 3D 地图引擎、交通规则理解与场景级行为建模，让 AI 在真实城市道路中具备空间理解与可解释决策能力。",
         "papers": [
             {
+                "title": "🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps",
+                "intro": "The first benchmark for Online Navigation Refinement, which proposes a path-aware transformer to associate standard maps with online perception and unifies global topology with real-time geometry for low-cost lane-level navigation.",
+                "intro_zh": "首个在线导航细化基准，提出路径感知Transformer将标准地图与在线感知关联，并统一了全局拓扑与实时几何信息，从而实现了低成本的车道级导航。",
+                "arxiv": {
+                    "id": "2507.07487"
+                },
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                },
+                "github": {
+                    "repo": "WallelWan/OMA-MAT",
+                    "stars": true
+                }
+            },
+            {
                 "title": "🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
                 "intro": "The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.",
                 "intro_zh": "在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。",
@@ -257,6 +273,64 @@
         "intro_zh": "研究智能体在虚拟与物理环境中的感知、思考与行动机制。通过视觉语言模型与强化学习的结合，构建可在三维空间中感知环境、规划目标、执行任务的具身智能体，为机器人与虚拟人提供统一的认知框架。",
         "papers": [
             {
+                "title": "🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+                "intro": "The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.",
+                "intro_zh": "首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。",
+                "project": {
+                    "id": "JanusVLN",
+                    "url": "https://miv-xjtu.github.io/JanusVLN.github.io/"
+                },
+                "arxiv": {
+                    "id": "2509.22548"
+                },
+                "github": {
+                    "repo": "MIV-XJTU/JanusVLN",
+                    "stars": true
+                },
+                "modelscope": {
+                    "repo": "misstl/JanusVLN_Extra",
+                    "model": true
+                },
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                }
+            },
+            {
+                "title": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation",
+                "intro": "A novel cross-embodiment local navigation framework, which can serve as a \"one brain, multiple forms\", plug-and-play fast system.",
+                "intro_zh": "一个新颖的跨具身实体的局部导航框架，可用作一脑多形、可插拔的快系统。",
+                "project": {
+                    "id": "CE-Nav",
+                    "url": "https://ce-nav.github.io/"
+                },
+                "arxiv": {
+                    "id": "2509.23203"
+                },
+                "github": {
+                    "repo": "amap-cvlab/CE-Nav"
+                },
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                }
+            },
+            {
+                "title": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
+                "intro": "OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.",
+                "intro_zh": "OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。",
+                "arxiv": {
+                    "id": "2509.25687"
+                },
+                "github": {
+                    "repo": "amap-cvlab/OmniNav"
+                },
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                }
+            },
+            {
                 "title": "🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation",
                 "intro": "A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.",
                 "intro_zh": "一个统一的多模态链式思维推理框架，通过将世界模型的推演能力内化到 VLN 架构中，基于自然语言指令和视觉观察，实现高效且精确的导航。",
@@ -278,53 +352,6 @@
                 "modelscope": {
                     "repo": "amap_cvlab/FantasyVLN",
                     "model": true
-                }
-            },
-            {
-                "title": "🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
-                "intro": "The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.",
-                "intro_zh": "首个具备双重隐式记忆的视觉语言导航智能体，解耦视觉语义和空间感知，并分别建模为紧凑的隐式神经表示。",
-                "project": {
-                    "id": "JanusVLN",
-                    "url": "https://miv-xjtu.github.io/JanusVLN.github.io/"
-                },
-                "arxiv": {
-                    "id": "2509.22548"
-                },
-                "github": {
-                    "repo": "MIV-XJTU/JanusVLN",
-                    "stars": true
-                },
-                "modelscope": {
-                    "repo": "misstl/JanusVLN_Extra",
-                    "model": true
-                }
-            },
-            {
-                "title": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation",
-                "intro": "A novel cross-embodiment local navigation framework, which can serve as a \"one brain, multiple forms\", plug-and-play fast system.",
-                "intro_zh": "一个新颖的跨具身实体的局部导航框架，可用作一脑多形、可插拔的快系统。",
-                "project": {
-                    "id": "CE-Nav",
-                    "url": "https://ce-nav.github.io/"
-                },
-                "arxiv": {
-                    "id": "2509.23203"
-                },
-                "github": {
-                    "repo": "amap-cvlab/CE-Nav"
-                }
-            },
-            {
-                "title": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
-                "intro": "OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.",
-                "intro_zh": "OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略与快慢协同规划结合多任务、通用视觉语言数据增强理解能力，在指令目标、物体目标、点目标及前沿探索任务上实现更高精度、泛化与成功率，并获真实部署验证。",
-                "arxiv": {
-                    "id": "2509.25687"
-                },
-                "github": {
-                    "repo": "amap-cvlab/OmniNav",
-                    "not_finished": true
                 }
             },
             {
@@ -358,6 +385,10 @@
                 "github": {
                     "repo": "Fantasy-AMAP/fantasy-world",
                     "not_finished": true
+                },
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
                 }
             },
             {
@@ -377,6 +408,24 @@
         "intro": "Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF, and 3D-aware diffusion, aiming for real-time rendering, continuous level-of-detail control, and semantically consistent 3D scene synthesis.",
         "intro_zh": "探索3D世界的生成式建模与高保真重建。研究方向涵盖 Gaussian Splatting、NeRF、3D-aware diffusion 等技术，用于实现实时渲染、连续细节层次（LOD）控制与语义一致的三维场景生成。",
         "papers": [
+            {
+                "title": "🛰 Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
+                "intro": "A geometry-first framework for street-level 3D scene generation, which proposes perspective-view training to bridge extreme viewpoint gaps and unifies high-fidelity geometry with photorealistic texture synthesis.",
+                "intro_zh": "一个用于街景3D生成的几何优先框架，提出透视视图训练策略以弥合极端的视角差异，并统一了高保真几何与照片级纹理合成。",
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                }
+            },
+            {
+                "title": "💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering",
+                "intro": "CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.",
+                "intro_zh": "CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。",
+                "publish": {
+                    "id": "ICLR 2026",
+                    "url": ""
+                }
+            },
             {
                 "title": "🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks",
                 "intro": "The first native 3D generation foundational model based on next-scale autoregression.",
@@ -403,17 +452,6 @@
                 "publish": {
                     "id": "WACV 2025",
                     "url": "https://ieeexplore.ieee.org/abstract/document/10943871"
-                }
-            },
-            {
-                "title": "💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering",
-                "intro": "CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.",
-                "intro_zh": "CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。",
-                "arxiv": {
-                    "id": "2510.09997"
-                },
-                "github": {
-                    "repo": "amap-cvlab/CLoD-GS"
                 }
             },
             {

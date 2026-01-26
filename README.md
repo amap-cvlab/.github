@@ -25,6 +25,7 @@ Feel free to ⭐ the repos below to stay updated.
 
 # 🔈 Latest News
 
+- 🏛 **Jan, 2026** – We are thrilled to announce that **7 papers** from our team have been accepted to ICLR 2026, highlighting our latest breakthroughs in map & autonomous driving (**[Online Navigation Refinement](https://arxiv.org/abs/2507.07487)**), embodied AI (**[JanusVLN](https://miv-xjtu.github.io/JanusVLN.github.io/)**, **[CE-Nav](https://ce-nav.github.io/)**, **[OmniNav](https://arxiv.org/abs/2509.25687)**), world modeling (**[FantasyWorld](https://fantasy-amap.github.io/fantasy-world/)**), and 3D generation (**Sat3DGen**, **CLoD-GS**).
 - 📢 **Jan, 2026** – We released the training and inference code and model weights of [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/).
 - 🏆 **Dec, 2025** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) ranked <strong>1st</strong> on the [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) Leaderboard (by **Stanford Prof. Fei-Fei Li's Team**), validating our approach against global state-of-the-art models.
 - 🏛 **Nov, 2025** – We are thrilled to announce that **5 papers** from our team have been accepted to AAAI 2026, including 1 Oral, highlighting our latest breakthroughs in autonomous driving ([**UniMapGen**](https://arxiv.org/abs/2509.22262) (*Oral*), [**PriorDrive**](), [**Persistent Autoregressive Mapping**](https://arxiv.org/pdf/2509.22756)) and video generation & digital humans from our [**Fantasy AIGC Family**](https://github.com/Fantasy-AMAP) ([**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)).
@@ -41,6 +42,16 @@ Feel free to ⭐ the repos below to stay updated.
 ## 🗺️ Map & Autonomous Driving
 
 The core of our research lies in integrating perception, mapping, and decision-making for intelligent transportation. We develop next-generation 3D map engines, traffic rule reasoning, and scene-level behavior modeling, enabling AI to understand spatial context and make interpretable decisions in real-world urban environments.
+<br><br>
+
+### 🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.07487-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.07487)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/WallelWan/OMA-MAT)
+![GitHub Stars](https://img.shields.io/github/stars/WallelWan/OMA-MAT)
+
+The first benchmark for Online Navigation Refinement, which proposes a path-aware transformer to associate standard maps with online perception and unifies global topology with real-time geometry for low-cost lane-level navigation.
 <br><br>
 
 ### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
@@ -181,21 +192,10 @@ The first dataset for automatic rigging of 3D generated digital humans and a tra
 We study perception, reasoning, and action of intelligent agents in both virtual and physical environments. By integrating vision-language models and reinforcement learning, we build embodied agents capable of environmental perception, goal planning, and task execution, forming a unified cognitive foundation for robots and digital humans.
 <br><br>
 
-### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
-
-A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.
-<br><br>
-
 ### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
 ![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
@@ -207,6 +207,7 @@ The first visual-language navigation agent with dual implicit memory decouples v
 ### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.23203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.23203)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
 ![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
@@ -216,10 +217,24 @@ A novel cross-embodiment local navigation framework, which can serve as a "one b
 
 ### OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation
 
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.25687-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.25687)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
+![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/OmniNav)
 
 OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.
+<br><br>
+
+### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
+
+[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
+![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
+[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
+
+A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.
 <br><br>
 
 ### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA
@@ -237,6 +252,7 @@ We aim to construct dynamic, interactive world models for understanding, predict
 ### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
 [![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
 
@@ -255,6 +271,20 @@ A novel framework leveraging world model as a virtual environment for VLA post t
 Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF, and 3D-aware diffusion, aiming for real-time rendering, continuous level-of-detail control, and semantically consistent 3D scene synthesis.
 <br><br>
 
+### 🛰 Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+
+A geometry-first framework for street-level 3D scene generation, which proposes perspective-view training to bridge extreme viewpoint gaps and unifies high-fidelity geometry with photorealistic texture synthesis.
+<br><br>
+
+### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
+
+[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+
+CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
+<br><br>
+
 ### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
@@ -270,15 +300,6 @@ The first native 3D generation foundational model based on next-scale autoregres
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
 
 GF-NeRF introduces a global-guided two-stage architecture to achieve consistent and high-fidelity large-scale scene rendering without relying on prior scene knowledge.
-<br><br>
-
-### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.09997-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.09997)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CLoD-GS)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CLoD-GS)
-
-CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
 <br><br>
 
 ### 🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control
