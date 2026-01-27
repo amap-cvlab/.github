@@ -410,8 +410,8 @@
         "papers": [
             {
                 "title": "🛰 Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
-                "intro": "A geometry-first framework for street-level 3D scene generation, which proposes perspective-view training to bridge extreme viewpoint gaps and unifies high-fidelity geometry with photorealistic texture synthesis.",
-                "intro_zh": "一个用于街景3D生成的几何优先框架，提出透视视图训练策略以弥合极端的视角差异，并统一了高保真几何与照片级纹理合成。",
+                "intro": "A feed-forward generative framework for synthesizing street-view-level 3D content from a single satellite image based on a geometry-first strategy. Without requiring 3D annotations.",
+                "intro_zh": "一种基于几何优先策略的街景3D前馈式生成框架，无需3D标注，仅用单张遥感图像，通过几何优先约束统一实现高保真三维几何重建与街景视频生成。",
                 "publish": {
                     "id": "ICLR 2026",
                     "url": ""

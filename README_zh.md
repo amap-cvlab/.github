@@ -276,7 +276,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 
-一个用于街景3D生成的几何优先框架，提出透视视图训练策略以弥合极端的视角差异，并统一了高保真几何与照片级纹理合成。
+一种基于几何优先策略的街景3D前馈式生成框架，无需3D标注，仅用单张遥感图像，通过几何优先约束统一实现高保真三维几何重建与街景视频生成。
 <br><br>
 
 ### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering

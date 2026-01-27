@@ -275,7 +275,7 @@ Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 
-A geometry-first framework for street-level 3D scene generation, which proposes perspective-view training to bridge extreme viewpoint gaps and unifies high-fidelity geometry with photorealistic texture synthesis.
+A feed-forward generative framework for synthesizing street-view-level 3D content from a single satellite image based on a geometry-first strategy. Without requiring 3D annotations.
 <br><br>
 
 ### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
