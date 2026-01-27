@@ -46,6 +46,7 @@ The core of our research lies in integrating perception, mapping, and decision-m
 
 ### 🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps
 
+[![Project](https://img.shields.io/badge/🌐%20%20Project-OMA%20MAT-blue.svg)](https://wallelwan.github.io/OMA-MAT/)
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.07487-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.07487)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/WallelWan/OMA-MAT)
@@ -281,6 +282,7 @@ A feed-forward generative framework for synthesizing street-view-level 3D
 ### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2510.09997-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.09997)
 
 CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
 <br><br>

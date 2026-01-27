@@ -47,6 +47,7 @@
 
 ### 🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps
 
+[![Project](https://img.shields.io/badge/🌐%20%20Project-OMA%20MAT-blue.svg)](https://wallelwan.github.io/OMA-MAT/)
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.07487-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.07487)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/WallelWan/OMA-MAT)
@@ -282,6 +283,7 @@ OmniNav提出统一的机器人导航框架，以低延迟的连续航点策略�
 ### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
 
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2510.09997-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.09997)
 
 CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。
 <br><br>

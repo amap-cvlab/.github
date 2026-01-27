@@ -10,6 +10,10 @@
                 "title": "🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps",
                 "intro": "The first benchmark for Online Navigation Refinement, which proposes a path-aware transformer to associate standard maps with online perception and unifies global topology with real-time geometry for low-cost lane-level navigation.",
                 "intro_zh": "首个在线导航细化基准，提出路径感知Transformer将标准地图与在线感知关联，并统一了全局拓扑与实时几何信息，从而实现了低成本的车道级导航。",
+                "project": {
+                    "id": "OMA-MAT",
+                    "url": "https://wallelwan.github.io/OMA-MAT/"
+                },
                 "arxiv": {
                     "id": "2507.07487"
                 },
@@ -421,6 +425,9 @@
                 "title": "💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering",
                 "intro": "CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.",
                 "intro_zh": "CLoD-GS 通过引入可学习的距离自适应透明度，为 3D 高斯喷溅表示实现单一模型内平滑、无存储冗余、无跳变伪影的连续细节层次渲染。",
+                "arxiv": {
+                    "id": "2510.09997"
+                },
                 "publish": {
                     "id": "ICLR 2026",
                     "url": ""
