@@ -50,7 +50,7 @@
 在自动驾驶方向首次提出一种时空思维链的推理方法，提出了视觉生成与理解统一的预训练范式，允许模型可视化地思考，基于当前观察和预测的未来世界进行轨迹规划。
 <br><br>
 
-### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
+### 🗺 UniMapGen: A Generative Framework for Large-Scale Map Construction from Multi-modal Data
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-UniMapGen-blue.svg)](https://amap-cvlab.github.io/UniMapGen/)
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026%20%28Oral%29-green.svg)](https://arxiv.org/pdf/2509.22262)
