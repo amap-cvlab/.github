@@ -66,7 +66,7 @@ The first benchmark for Online Navigation Refinement, which proposes a path-awar
 The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.
 <br><br>
 
-### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
+### 🗺 UniMapGen: A Generative Framework for Large-Scale Map Construction from Multi-modal Data
 
 [![Project](https://img.shields.io/badge/🌐%20%20Project-UniMapGen-blue.svg)](https://amap-cvlab.github.io/UniMapGen/)
 [![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026%20%28Oral%29-green.svg)](https://arxiv.org/pdf/2509.22262)
